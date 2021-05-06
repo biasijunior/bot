@@ -5,3 +5,4 @@
 *.lock
 *.csv
 .env
+.vscode/
