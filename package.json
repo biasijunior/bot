@@ -1,0 +1,19 @@
+{
+  "name": "xost",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "chokidar": "^3.5.1",
+    "csv-parse": "^4.15.3",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "puppeteer": "^7.1.0"
+  },
+  "scripts": {
+    "dev": "node -r esm src",
+    "start": "NODE_ENV=production node -r esm src"
+  }
+}
